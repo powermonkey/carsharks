@@ -30,7 +30,29 @@
 
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
 		
-		<div class="headerslider"> <?php echo do_shortcode('[sp_responsiveslider limit="-1" height="556"]'); ?></div>
+		<div class="headerslider"> 
+			<div class="header-menu-container">
+				<div class="carsharks-logo">
+					<img src="http://carsharks:8080/wp-content/uploads/2017/05/Layer-9-copy.png" alt="Carsharks logo">
+				</div>
+				<div class="header-menu">
+					<div class="header-menu-item"><a>OUR DEALS</a><div style="clear: both;"></div></div>
+					<div class="header-menu-item-partition">|</div>
+					<div class="header-menu-item"><a>SPECIALS</a></div>
+					<div class="header-menu-item-partition">|</div>
+					<div class="header-menu-item"><a>ABOUT US</a></div>
+					<div class="header-menu-item-partition">|</div>
+					<div class="header-menu-item"><a>BLOG</a></div>
+					<div class="header-menu-item-partition">|</div>
+					<div class="header-menu-item"><a> CONTACT US</a></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			
+			
+			<?php echo do_shortcode('[sp_responsiveslider limit="-1" height="556"  design="design-3" ]'); ?>
+		</div>
 		
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
