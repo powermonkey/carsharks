@@ -11,7 +11,7 @@
 ?>
 <div class="custom-header">
 	<div class="header-menu-container">
-		<div class="carsharks-logo">
+		<div class="carsharks-logo-header">
 			<img src="http://carsharks:8080/wp-content/uploads/2017/05/Layer-9-copy.png" alt="Carsharks logo">
 		</div>
 		<div class="header-menu">

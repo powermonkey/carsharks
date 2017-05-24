@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for displaying pages on front page
+ * Template Name: Full Width Page Panel
  *
  * @package WordPress
  * @subpackage Twenty_Seventeen
@@ -27,10 +27,18 @@ global $twentyseventeencounter;
 
 	<?php endif; ?>
 
-	<div class="panel-content">
-		<div class="wrap">
-			<header class="entry-header">
-			asdfasdf
+	<?php
+		if($twentyseventeencounter == 1){
+			echo "
+			<div class='panel-content whychoose'>
+				<div class='wrap'>
+					<header class='entry-header'>";
+		}else{
+			echo "<div class='panel-content'>
+				<div class='wrap'>
+					<header class='entry-header'>";
+		}
+	?>
 				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 
 				<?php twentyseventeen_edit_link( get_the_ID() ); ?>
