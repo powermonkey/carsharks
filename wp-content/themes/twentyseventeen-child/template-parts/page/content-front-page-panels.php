@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Full Width Page Panel
+ * Template part for displaying pages on front page
  *
  * @package WordPress
  * @subpackage Twenty_Seventeen

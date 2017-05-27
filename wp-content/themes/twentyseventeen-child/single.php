@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Featured Article
- * Template Post Type: post, page, product
+ * Template Post Type: post, product
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
