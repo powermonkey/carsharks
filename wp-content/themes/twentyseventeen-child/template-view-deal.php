@@ -1,7 +1,7 @@
  <?php
 /**
  * Template Name: View Deal
- * Template Post Type: post, product
+ * Template Post Type: post
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
@@ -20,8 +20,7 @@ get_header('view-deal'); ?>
 			<?php
 				/* Start the Loop */
 				while ( have_posts() ) : the_post();
-
-					//get_template_part( 'template-parts/post/content', get_post_format() );
+					
 					get_template_part( 'template-parts/post/content', 'view-deal' );
 
 					// If comments are open or we have at least one comment, load up the comment template.
