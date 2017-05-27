@@ -1,6 +1,7 @@
-<?php
+ <?php
 /**
- * The template for displaying all single posts
+ * Template Name: View Deal
+ * Template Post Type: post, product
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
@@ -10,7 +11,7 @@
  * @version 1.0
  */
 
-get_header(); ?>
+get_header('view-deal'); ?>
 
 <div class="wrap">
 	<div id="primary" class="content-area">
@@ -20,7 +21,8 @@ get_header(); ?>
 				/* Start the Loop */
 				while ( have_posts() ) : the_post();
 
-					get_template_part( 'template-parts/post/content', get_post_format() );
+					//get_template_part( 'template-parts/post/content', get_post_format() );
+					get_template_part( 'template-parts/post/content', 'view-deal' );
 
 					// If comments are open or we have at least one comment, load up the comment template.
 					if ( comments_open() || get_comments_number() ) :

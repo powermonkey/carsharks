@@ -29,9 +29,13 @@
 	<header id="masthead" class="site-header" role="banner">
 
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
-			
+		
 		<div class="headerslider"> 
-			<?php echo do_shortcode('[sp_responsiveslider limit="-1" height="556"  design="design-3" pagination="true" navigation="false"]'); ?>
+			<?php 
+				if(is_page()){
+					echo do_shortcode('[sp_responsiveslider limit="-1" height="556"  design="design-3" pagination="true" navigation="false"]'); 
+				}
+			?>
 		</div>
 		
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
