@@ -136,11 +136,12 @@ if ( ! defined('ABSPATH')) exit;  // if direct access
 			//var_dump(get_the_excerpt());
 			$the_content = get_the_excerpt();
 			
-			$excerpt_removed_shortcode = preg_replace( '|\[(.+?)\](.+?\[/\\1\])?|s', '', strip_shortcodes($the_content));
+			// $excerpt_removed_shortcode = preg_replace( '|\[(.+?)\](.+?\[/\\1\])?|s', '', strip_shortcodes($the_content));
 			
-			$html_content.= apply_filters('post_grid_filter_grid_item_excerpt',wp_trim_words($excerpt_removed_shortcode, $char_limit,''));		
+			// $html_content.= apply_filters('post_grid_filter_grid_item_excerpt',wp_trim_words($excerpt_removed_shortcode, $char_limit,''));		
 
 			//$html_content.= wp_trim_words(get_the_excerpt(), $char_limit,'');
+			$html_content.=$the_content;
 			$html_content.='</div>';
 			}
 

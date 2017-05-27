@@ -1,1 +1,0 @@
-<div class="slide-image"><?php the_post_thumbnail('url'); ?>	<?php $sliderurl = get_post_meta( get_the_ID(),'rsris_slide_link', true );				if($sliderurl != '') { ?>				<a href="<?php echo $sliderurl; ?>" class="image-link" >&nbsp;</a>				<?php }  ?></div>
