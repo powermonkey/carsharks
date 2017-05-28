@@ -34,7 +34,8 @@
 			<?php 
 				if(is_page()){
 					echo '<div class="headerslider">';
-					echo do_shortcode('[URIS id=509]'); 
+					echo do_shortcode('[sp_responsiveslider cat_id="6" limit="-1" height="556"  design="design-3" pagination="true" navigation="false"]'); 
+					//echo do_shortcode('[URIS id=509]'); 
 					echo '</div>';
 				}
 			?>
