@@ -14,16 +14,19 @@
 		<div class="carsharks-logo-header">
 			<img src="http://carsharks:8080/wp-content/uploads/2017/05/Layer-9-copy.png" alt="Carsharks logo">
 		</div>
+		<?php 
+			$domain =  "http://" . $_SERVER['HTTP_HOST']; 
+		?>
 		<div class="header-menu">
-			<div class="header-menu-item"><div><a href="#">OUR DEALS</a></div><div style="clear: both;"></div></div>
+			<div class="header-menu-item"><div><a href="<?php echo $domain; ?>#">OUR DEALS</a></div><div style="clear: both;"></div></div>
 			<div class="header-menu-item-partition">|</div>
-			<div class="header-menu-item"><div><a href="#">SPECIALS</a></div></div>
+			<div class="header-menu-item"><div><a href="<?php echo $domain; ?>#specials-jump">SPECIALS</a></div></div>
 			<div class="header-menu-item-partition">|</div>
-			<div class="header-menu-item"><div><a href="#">ABOUT US</a></div></div>
+			<div class="header-menu-item"><div><a href="<?php echo $domain; ?>#about-us-jump">ABOUT US</a></div></div>
 			<div class="header-menu-item-partition">|</div>
-			<div class="header-menu-item-blog"><div><a href="#">BLOG</a></div></div>
+			<div class="header-menu-item-blog"><div><a href="#<?php echo $domain; ?>">BLOG</a></div></div>
 			<div class="header-menu-item-partition">|</div>
-			<div class="header-menu-item"><div><a href="#"> CONTACT US</a></div></div>
+			<div class="header-menu-item"><div><a href="<?php echo $domain; ?>#contact-us-jump"> CONTACT US</a></div></div>
 			<div style="clear: both;"></div>
 		</div>
 		<div style="clear: both;"></div>
