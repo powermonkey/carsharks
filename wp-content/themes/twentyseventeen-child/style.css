@@ -11,3 +11,485 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-seventeen-child
 */
+
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.has-header-image .custom-header-media img, .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img{
+transform: none;
+position: static;
+}
+
+.twentyseventeen-front-page.has-header-image .custom-header-media, .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media{
+height: 434px;
+position: relative;
+z-index: 0;
+top: -111px;
+}
+
+.site-header{
+background-color: #fff
+}
+
+.site-header .menu-scroll-down{
+display: none;
+}
+
+.wp-custom-header{
+height: 438px;
+}
+
+.headerslider{
+margin-top: -435px;
+}
+
+#slides{
+width: 1200px;
+margin: auto
+}
+
+.slidesjs-container{
+width: 1200px !important;
+height: 695px  !important;
+margin: auto;
+}
+
+.slidesjs-control{
+width: 1200px !important;
+height: 695px  !important;
+}
+
+.sp-mask.sp-grab{
+background-color: #000;
+}
+
+.sp-buttons{
+bottom: 42px;
+}
+
+header .header-menu-container{
+margin: 0 auto;
+width: 1200px;
+position: relative;
+z-index: 1;
+}
+
+header .header-menu{
+float: right;
+height: 111px;
+}
+
+footer .footer-menu{
+float: left;
+height: 111px;
+}
+
+header .header-menu .header-menu-item,
+header .header-menu .header-menu-item-partition, footer .footer-menu .footer-menu-item,
+footer .footer-menu .footer-menu-item-partition{
+float: left;
+}
+
+header .header-menu .header-menu-item a,
+header .header-menu .header-menu-item-partition, header .header-menu .header-menu-item-blog a, footer .footer-menu .footer-menu-item a,
+footer .footer-menu .footer-menu-item-partition, footer .footer-menu .footer-menu-item-blog a{
+color: #fff;
+}
+
+header .header-menu .header-menu-item-partition{
+margin-top: 64px;
+}
+
+header .header-menu .header-menu-item{
+width: 120px;
+text-align: center;
+margin-top: 65px;
+}
+
+header .header-menu .header-menu-item-blog{
+width: 90px;
+text-align: center;
+float: left;
+height: 111px;
+margin-top: 65px;
+}
+
+footer .footer-menu .footer-menu-item{
+text-align: center;
+width: 120px;
+margin-top: 47px;
+}
+
+footer .footer-menu .footer-menu-item-partition{
+margin-top: 48px;
+}
+
+footer .footer-menu .footer-menu-item-blog{
+width: 90px;
+text-align: center;
+float: left;
+margin-top: 47px;
+}
+
+.carsharks-logo-header{
+float: left;
+}
+
+.carsharks-logo-header img{
+height: 104px;
+}
+
+#slides .slider-content{
+width: 35% !important;
+height: 32%;
+top: auto !important;
+bottom: -22px;
+background: rgba(0,0,0,1) !important;
+}
+
+.slider-content .slide-title{
+display: none;
+}
+
+.slidesjs-pagination{
+bottom: 44px !important
+}
+
+.page .panel-content .entry-title{
+font-size: 40px !important;
+text-align: center;
+}
+
+.slider-pro.sp-horizontal{
+position: absolute; 
+top: -531px; 
+}
+
+@media only screen and (min-width: 320px )and (max-width: 768px) {
+  	.page .panel-content .entry-title {
+      font-size: 36px !important;
+      margin-bottom: 45px;
+  	}
+
+  	#panel1 .whychoose .wrap .entry-header{
+      margin-top: 0 !important;
+  	}
+
+  	#slides{
+     width: 265px;
+     margin: auto
+  	}
+
+  	.slidesjs-container{
+      width: 265px !important;
+      height: 186.887px !important;
+      margin: auto;
+  	}
+
+  	.slidesjs-control{
+      width: 265px !important;
+      height: 186.887px !important;
+  	}
+
+  	.slider-content{
+      display: none;
+  	}
+
+  	.label-contact-us-form-message, .contact-us-form-message{
+     width: 260px !important;
+  	}
+
+  	#wpgmza_map{
+      width: 100% !important;
+ 	}
+
+  	header .header-menu-container{
+      height: 300px;
+      width: 100%
+  	}
+
+  	.carsharks-logo-header, header .header-menu{
+      float: none;
+      text-align: center;
+      padding-top: 18px;
+   	}
+
+   	header .header-menu .header-menu-item{
+      margin-top: 0;
+      float: none;
+      display: block;
+      text-align: center;
+      width: 100% !important;
+   	}
+
+   	header .header-menu .header-menu-item-partition{
+	  display: none;
+   	}
+
+   	header .header-menu .header-menu-item-blog{
+      height: 24px;
+      float: none;
+      margin-top: 0;
+      display: block;
+      text-align: center;
+      width: 100% !important;
+   	}
+
+   	.twentyseventeen-front-page.has-header-image .custom-header-media, .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media{
+      top: -300px !important;
+      height: 396px !important;
+   	}
+
+  	#custom-footer{
+      height: 300px !important;
+      background-size: 100% 100%;
+  	}
+
+ 	.custom-footer-wrap{
+      width: 100% !important;
+  	}
+
+  	.carsharks-logo-footer{
+      text-align: center;
+  	}
+
+  	.carsharks-logo-footer img{
+      float: none !important;
+  	}
+
+  	footer .footer-menu{
+      float: none;
+  	}
+
+  	footer .footer-menu .footer-menu-item,
+ footer .footer-menu .footer-menu-item-blog{
+      text-align: center;
+      width: 100%;
+      display: block;
+      margin-top: 0;
+      float: none;
+  	}
+
+  	footer .footer-menu .footer-menu-item-partition{
+      display: none;
+  	}
+
+  	.footer-copyright{
+      margin-left: 0 !important;
+      float: none !important;
+      text-align: center;
+  	}
+
+  	.wpcf7{
+      float: none !important;
+  	}
+
+  	.label-contact-us-form-name, .label-contact-us-form-email, .label-contact-us-form-message{
+	  margin: auto !important;
+      float: none !important;
+  	}
+
+  	.site-header{
+     height: 500px !important;
+  	}
+  
+  	.custom-header{
+     position: absolute !important;
+  	}
+
+  	.headerslider{
+     margin-top: 0 !important;
+     top: 290px;
+   }
+
+  	.single-post:not(.has-sidebar) .wrap{
+     padding: 0 2em !important;
+  	}
+
+  	.post-form-group-col-1, .post-form-group-col-2, .post-form-group-col-3, post-form-group, .post-form-group, .post-label-contact, .post-form-group span{
+     float: none !important;
+   	}
+
+	.post-form-group-col-1, .post-form-group-col-2, .post-form-group-col-3, .post-input-contact, .post-input-contact-textarea{
+	 width: 100% !important;
+	}
+
+    .post-label-contact{
+	 width: 100%;
+	 line-height: normal;
+	}
+
+	.slider-pro.sp-horizontal{
+	 position: absolute; 
+	 top: -225px;
+	 left: 0;
+	}
+
+}
+
+.page-one-column .panel-content .wrap{
+max-width: 1200px !important;
+}
+
+.contact-us-form-name, .contact-us-form-email{
+width: 260px !important;
+}
+
+.label-contact-us-form-name, .label-contact-us-form-email{
+width: 260px !important;
+}
+
+.label-contact-us-form-message, .contact-us-form-message{
+width: 560px;
+}
+
+.label-contact-us-form-name, .label-contact-us-form-email, .label-contact-us-form-message{
+float: left;
+margin-right: 40px;
+margin-bottom: 30px;
+}
+
+.wpcf7{
+float: left;
+margin-bottom: 20px !important;
+}
+
+#wpgmza_map{
+margin-top: 24px;
+margin-bottom: 43px;
+}
+
+#custom-footer{
+background-image: url(http://carsharks:8080/wp-content/uploads/2017/05/Layer-8-copy-2-copy.png);
+height: 96px;
+}
+
+.custom-footer-wrap{
+width: 1232px;
+margin: auto;
+}
+
+.carsharks-logo-footer img{
+height: 96px;
+float: left;
+}
+
+.footer-copyright{
+color: #bbb;
+float: left;
+height: 111px;
+margin-left: 40px;
+margin-top:47px
+}
+
+.whychoose{
+background-image: url(http://carsharks:8080/wp-content/uploads/2017/05/Layer-88.png);
+background-size: 100% 100%;
+}
+
+#panel1 .whychoose .wrap .entry-header{
+margin-top: -66px;
+}
+
+.post-navigation, .entry-footer{
+display: none;
+}
+
+.single-post:not(.has-sidebar) #primary{
+max-width: 1200px !important;
+}
+
+
+.single-post:not(.has-sidebar) .wrap{
+max-width: 1200px !important;
+padding: 0;
+}
+
+.post-label-contact{
+width: 112px;
+text-align: left;
+margin-right: 15px;
+float: left;
+line-height: 47px;
+}
+
+.post-input-contact-textarea{
+height: 205px;
+}
+
+.post-form-group{
+padding: 15px 0;
+float: left;
+}
+
+.post-form-group span{
+float: left;
+}
+
+
+.post-form-group label{
+font-weight: 400;
+}
+
+.post-form-group-col-1{
+float: left;
+width: 40%;
+}
+
+
+.post-form-group-col-2{
+float: left;
+width: 40%;
+}
+
+.post-form-group-col-3{
+float: left;
+width: 20%;
+}
+
+.post-form-group-col-1 input, .post-form-group-col-2 input, .post-form-group-col-2 textarea{
+border-radius: 0;
+width: 300px;
+}
+
+body:not(.twentyseventeen-front-page) .entry-header{
+display: none;
+}
+
+.wpcf7-list-item{
+display: block !important;
+border: 1px solid #bbb;
+margin: 15px 0 28px 0 !important;
+padding: 10px 0 5px 15px;
+height: 49px;
+}
+
+.wpcf7-list-item input{
+margin-left: 130px;
+vertical-align: middle;
+}
+
+.post-form-group-col-3 input[type="submit"]{
+width: 100%;
+font-weight: 400;
+font-size: 19px;
+}
+
+body:not(.twentyseventeen-front-page) .entry-content{
+margin-top: 150px;
+}
+
+.single-featured-image-header{
+border: none !important;
+}
+
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child){
+border-top: none !important;
+}
+
+.site-info{
+display: none;
+}
