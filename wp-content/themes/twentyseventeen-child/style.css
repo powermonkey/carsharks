@@ -498,3 +498,11 @@ border-top: none !important;
 .site-info{
 display: none;
 }
+
+.wpcf7-submit{
+margin-top: 5px;
+}
+
+.g-recaptcha>div{
+margin: 0 auto;
+}
