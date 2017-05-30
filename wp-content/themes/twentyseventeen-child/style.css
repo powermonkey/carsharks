@@ -322,11 +322,16 @@ top: -531px;
 	 line-height: normal;
 	}
 
-	.slider-pro.sp-horizontal{
+    .slider-pro.sp-horizontal{
 	 position: absolute; 
 	 top: -225px;
 	 left: 0;
 	}
+
+     .post-grid.grid .item{
+	width: 100% !important;
+	margin: 0 !important;
+     }
 
 }
 
